@@ -1,0 +1,73 @@
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cabecalho {
+    background-color: lightblue;
+}
+
+.cabecalho .navbar-brand,
+.cabecalho .nav-link,
+.cabecalho .navbar-collapse {
+  color: white !important;
+}
+
+.navbar .form-busca{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar .btn{
+  color: blue;
+  border-color: blue;
+}
+
+.navbar .btn:hover{
+  background-color: blue;
+  color: darkblue;
+}
+
+.bemvindo{
+    padding: 30px;
+    text-align: center;
+}
+
+.bemvindo h1{
+    color: lightblue;
+}
+
+.secao-livros-destaques {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.card-custom {
+  width: 18rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-custom img {
+  height: 250px;
+  width: auto;
+  max-width: 100%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.destaque{
+  padding:15px
+}
+
+.destaque h2{
+  color: lightblue;
+}

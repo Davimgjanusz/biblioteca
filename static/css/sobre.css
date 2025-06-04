@@ -1,0 +1,40 @@
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cabecalho {
+    background-color: lightblue;
+}
+
+.cabecalho .navbar-brand,
+.cabecalho .nav-link,
+.cabecalho .navbar-collapse {
+  color: white !important;
+}
+
+.navbar .form-busca{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar .btn{
+  color: blue;
+  border-color: blue;
+}
+
+.navbar .btn:hover{
+  background-color: blue;
+  color: darkblue;
+}
+
+.sobre{
+    padding: 30px;
+    text-align: center;
+}
+
+.sobre h1{
+    color: lightblue;
+}
